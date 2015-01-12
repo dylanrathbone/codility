@@ -3,6 +3,7 @@ import java.util.*;
 public class Solution {
 
     public int solution(String S) {
+
         return checkStringIsAnagramOfPalindrome(S);
     }
 

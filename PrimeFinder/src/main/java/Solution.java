@@ -28,6 +28,9 @@ public class Solution {
             //i.e. return true if value is 2
             return (valueToCheck == 2);
         }
+        //only necessary to test the factors between 2 and the square root of n.
+        //If the square root of n isn't a whole number, round up to
+        //the nearest whole number and test up to this number instead. See below
         int ceiling = (int)Math.sqrt((double)valueToCheck);
         //i Starts at 3 because even numbers (which are multiples of 2) are not primes
         for (int i = 3; i <= ceiling; i += 2)

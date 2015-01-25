@@ -5,31 +5,38 @@ import java.util.ArrayList;
  */
 public class Solution {
 
-    public String calculateWord(int[] numberArray) {
-        StringBuilder sb = new StringBuilder();
-        ArrayList<String> list = new ArrayList<String>();
+    private ArrayList<String> list = new ArrayList<String>();
+    private StringBuilder sb = new StringBuilder();
 
-        fizzBuzzGenerator(numberArray, list);
-        addDelimeter(sb, list);
-        return removeLastComma(sb);
+    public String calculateWord(int[] numberArray) {
+
+        determineWhetherNumberIsFizzOrBuzz(numberArray);
+
+        if(list.size() >= 1) {
+            buildStringWIthDelimeters();
+        } else {
+            buildStringWithNoDelimeter();
+        }
+
+        return removeLastComma();
     }
 
-    private String removeLastComma(StringBuilder sb) {
+    private void buildStringWithNoDelimeter() {
+        sb.append(list.get(1));
+    }
+
+    private String removeLastComma() {
         return sb.toString().substring(0, sb.toString().length() - 1);
     }
 
-    private void addDelimeter(StringBuilder sb, ArrayList<String> list) {
-        if(list.size() >= 1){
-            for(String element : list){
-                sb.append(element);
-                sb.append(',');
-            }
-        } else {
-            sb.append(list.get(1));
+    private void buildStringWIthDelimeters() {
+        for(String element : list){
+            sb.append(element);
+            sb.append(',');
         }
     }
 
-    private void fizzBuzzGenerator(int[] numberArray, ArrayList<String> list) {
+    private void determineWhetherNumberIsFizzOrBuzz(int[] numberArray) {
         for (int element : numberArray) {
             if(element % 3 == 0 && element % 5 == 0) {
                 list.add("Fizz");

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e303bbc7-1917-478f-8e5d-b920983fc7e9" name="Default" comment="added comments">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/src/main/java/Solution.java" afterPath="$PROJECT_DIR$/../FizzBuzz/src/main/java/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/src/test/java/SolutionTest.java" afterPath="$PROJECT_DIR$/../FizzBuzz/src/test/java/SolutionTest.java" />
     </list>
     <ignored path="PrimeFinder.iws" />
     <ignored path=".idea/workspace.xml" />

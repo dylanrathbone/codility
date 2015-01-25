@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e303bbc7-1917-478f-8e5d-b920983fc7e9" name="Default" comment="added comments">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Solution.class" afterPath="$PROJECT_DIR$/target/classes/Solution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SolutionTest.class" afterPath="$PROJECT_DIR$/target/test-classes/SolutionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnagramOfPalindrome/src/main/java/Solution.java" afterPath="$PROJECT_DIR$/../AnagramOfPalindrome/src/main/java/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Solution.java" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SolutionTest.java" afterPath="$PROJECT_DIR$/src/test/java/SolutionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnagramOfPalindrome/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AnagramOfPalindrome/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/src/main/java/Solution.java" afterPath="$PROJECT_DIR$/../FizzBuzz/src/main/java/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FizzBuzz/src/test/java/SolutionTest.java" afterPath="$PROJECT_DIR$/../FizzBuzz/src/test/java/SolutionTest.java" />
     </list>
     <ignored path="PrimeFinder.iws" />
     <ignored path=".idea/workspace.xml" />

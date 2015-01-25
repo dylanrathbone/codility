@@ -38,16 +38,12 @@ private Solution solution;
     @Test
     public void shouldReturnFizzFizzFizzBuzz1(){
         int[] array = {3, 6, 9, 10, 1};
-        assertEquals("FizzFizzFizzBuzz1", solution.calculateWord(array));
+        assertEquals("Fizz,Fizz,Fizz,Buzz,1", solution.calculateWord(array));
     }
 
     @Test
-    public void shouldReturnFizzFizzFizzBuzzFizz14FizzBuzz(){
+    public void shouldReturnFizzFizzFizzBuzzFizz14FizzBuzz() {
         int[] array = {3, 6, 9, 10, 12, 14, 15, 20};
-        assertEquals("FizzFizzFizzBuzzFizz14FizzBuzz", solution.calculateWord(array));
+        assertEquals("Fizz,Fizz,Fizz,Buzz,Fizz,14,Fizz,Buzz", solution.calculateWord(array));
     }
-
-
-
-
 }

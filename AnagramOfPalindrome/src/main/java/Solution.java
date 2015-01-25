@@ -1,3 +1,14 @@
+/*
+An anagram is passed (random letters) in, the algorithm
+asses whether that string can be converted into a
+plaindrome based on the rules below:
+
+You can have infinite number of character appearances,
+so long as those characters appear an even number of
+times. However you can only have 0 or 1 appearances of
+a character that appears an odd number of times
+ */
+
 import java.util.*;
 
 public class Solution {

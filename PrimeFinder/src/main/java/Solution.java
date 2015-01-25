@@ -16,7 +16,7 @@ public class Solution {
     }
 
     private boolean isItPrime(int valueToCheck) {
-        //If value is less than 2 i.e 1 or 0 then it cannot be prime because the are not
+        //If value is less than 2 i.e 1 or 0 then it cannot be prime because those numbers are not prime
         if (valueToCheck < 2) {
             return false;
         }
@@ -33,6 +33,14 @@ public class Solution {
         //the nearest whole number and test up to this number instead. See below
         int ceiling = (int)Math.sqrt((double)valueToCheck);
         //i Starts at 3 because even numbers (which are multiples of 2) are not primes
+
+        //Iterator starts at 3 because there is no point at starting at dividing
+        //by 2 because we have already made that test above
+
+        //We only check against odds now because, we have already checked above if the target is even and
+        //therfore not prime using an even number i.e. 2.
+        //By using even numbers (which are multiples of 2) for the test below we would essentially
+        //be re-performing the same check above.
         for (int i = 3; i <= ceiling; i += 2)
         {
             if (valueToCheck % i == 0) {

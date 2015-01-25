@@ -11,6 +11,13 @@ public class SolutionTest {
     }
 
     @Test
+    public void test0() {
+        int A = 245;
+        int B = 1022;
+        assertEquals(119, solution.checkForPrimesInRange(A, B));
+    }
+
+    @Test
     public void test1() {
         int A = 11;
         int B = 19;
